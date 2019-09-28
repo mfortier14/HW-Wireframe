@@ -8,14 +8,15 @@ header {
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
-    background: grey;
+    background: #ebebeb;
 }
 
 body {
-    background: pink;
-    font-size: 24px;
+    background: #777;
+    font-size: 18px;
     line-height: 32px;
-    color: #333;
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 }
 
 nav {
@@ -23,23 +24,24 @@ nav {
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
-    background: grey;
+    background: #ebebeb;
 }
 
 #left {
 float: left;
   width: 55%;
-  color: #fff;
-  background: #30948D;
+  text-decoration-color: #fff;
+  background: #ebebeb;
   height: 300px;
   text-align: center;
+  z-index: -2;
 }
 
 #right {
 float: right;
   width: 40%;
-  color: #fff;
-  background: #30948D;
+  text-decoration-color: #fff;
+  background: #ebebeb;
   height: 300px;
   text-align: center;
 }
@@ -60,10 +62,11 @@ float: right;
 #article {
   width: 100%;
   height: 200px;
-  text-decoration-color: white;
-  background: #a6b747;
+  text-decoration-color: #ebebeb;
+  background: #777;
   border: 1px solid #eee;
   position: relative;
+  z-index: 1;
 }
 
 #h {
@@ -72,6 +75,8 @@ float: right;
     left: 0px;
     top: 0px;
     z-index: 100;
+    color: #777;
+  background: #ebebeb;
 }
 
 #p {
@@ -81,8 +86,8 @@ float: right;
 }
 
 footer {
-    padding: 20px;
   clear: both;
-  background: #FFA500;
-  
+  background: #ebebeb;
+  text-decoration-color: #fff;
+  padding: 20px;
 }
