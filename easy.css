@@ -45,6 +45,7 @@ float: right;
   height: 300px;
   text-align: center;
 }
+/* the right side of the box needs to be streched to the width of the body  */
 
 #full {
     overflow: auto;
@@ -68,6 +69,7 @@ float: right;
   position: relative;
   z-index: 1;
 }
+/* this box needs to be centered within the section  */
 
 #h {
     width: 100%;
@@ -78,12 +80,14 @@ float: right;
     color: #777;
   background: #ebebeb;
 }
+/* tried using z-index to make boxes appear */
 
 #p {
     width: 100%;
     position: absolute;
     z-index: 100;
 }
+/* tried using z-index to make boxes appear  */
 
 footer {
   clear: both;
@@ -91,3 +95,4 @@ footer {
   text-decoration-color: #fff;
   padding: 20px;
 }
+/* the footer still needs to be separated from the section above it, neither margin or padding worked */
